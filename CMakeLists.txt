@@ -4,4 +4,4 @@ project(MyProject)
 set(CMAKE_CXX_STANDARD 11)
 
 # Add your source files here
-add_executable(MyProject main.cpp)
+add_executable(MyProject main.c)
