@@ -39,7 +39,7 @@ jobs:
 
     - name: Build code
       run: |
-        cmake -B build
+        cmake -S . -B build
         cmake --build build
 
     - name: Perform CodeQL Analysis
